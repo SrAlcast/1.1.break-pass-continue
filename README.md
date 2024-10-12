@@ -1,32 +1,41 @@
-# 🧪 Laboratorio 1.1 de Python: Manejo de Errores
+# 🧪 Laboratorio 1.1 de Python: break(), pass(), continue()
 
-Este laboratorio tiene como objetivo enseñar cómo manejar errores y excepciones en Python a través de una serie de ejercicios prácticos. A continuación, se describen los ejercicios realizados:
+Este laboratorio se centra en el uso de las sentencias de control de flujo `break`, `pass` y `continue`, fundamentales para controlar la ejecución de bucles en Python. A continuación, se explican los ejercicios que componen el laboratorio:
 
 ## 📘 Contenido del laboratorio
 
-### 1. División con manejo de excepciones
-En este ejercicio, se le pide al usuario que introduzca dos números para realizar una división. El programa está diseñado para manejar los errores que puedan ocurrir, como la división por cero o la entrada de valores no numéricos.
+### 1. Validación de datos numéricos
+Se utiliza un bucle para recorrer una lista de números, validando aquellos que cumplen ciertos criterios. Se introducen las sentencias `continue` para ignorar valores no deseados.
 
-### 2. Acceso a archivos
-Se implementa una estructura `try-except` para abrir un archivo. El programa maneja excepciones en caso de que el archivo no exista o si ocurre algún otro error durante la apertura.
+### 2. Búsqueda de un valor en una lista
+Este ejercicio busca un valor específico dentro de una lista. Se emplea la sentencia `break` para detener el bucle una vez que se encuentra el valor.
 
-### 3. Conversión de cadenas a enteros
-Este ejercicio solicita una lista de números en forma de cadena y convierte cada valor a entero. Se maneja la posibilidad de que el usuario introduzca un formato incorrecto, con una estructura `try-except`.
+### 3. Estructura de código incompleto
+Aquí se utiliza la sentencia `pass` dentro de una función que aún no está implementada pero que es necesaria para evitar errores de sintaxis.
 
-### 4. Cálculo del promedio con manejo de excepciones
-En este ejercicio, el usuario ingresa una lista de números y el programa calcula el promedio. Se manejan excepciones en caso de errores como entrada vacía o entrada incorrecta.
+### 4. Validación condicional
+Se itera a través de una lista de nombres y se valida si cada nombre cumple con ciertos requisitos, utilizando `continue` para omitir valores no válidos.
 
-### 5. Conversión segura de números
-El ejercicio realiza una conversión segura de cadenas a enteros, detectando si la entrada es válida y manejando el error si la conversión no es posible.
+### 5. Búsqueda de claves en un diccionario
+En este ejercicio, se recorre un diccionario y se utiliza `break` para detener la búsqueda una vez que se encuentra la clave deseada.
 
-### 6. Acceso a claves en diccionarios
-El programa intenta acceder a valores dentro de un diccionario a través de claves proporcionadas por el usuario. Se manejan errores en caso de que la clave no exista en el diccionario.
+### 6. Bucle con múltiples excepciones
+Este ejercicio introduce un bucle que realiza operaciones matemáticas y maneja diferentes tipos de excepciones que pueden surgir (como la división por cero).
 
-### 7. Conversión de entrada del usuario
-Se solicita al usuario ingresar un número y se realiza una conversión segura con manejo de excepciones en caso de entrada inválida.
+### 7. Búsqueda en listas anidadas
+Se trabaja con listas dentro de listas, y se utiliza `break` para detener la búsqueda cuando se encuentra un valor específico en una de las listas.
 
-### 8. Extracción de valores de una lista
-El programa trata de acceder a un índice específico de una lista. Se manejan posibles errores que pueden surgir si el índice está fuera de los límites de la lista.
+### 8. Evaluación de series temporales
+En este ejercicio, se iteran sobre series temporales de datos y se utiliza `continue` para ignorar valores que no cumplen con ciertos criterios.
+
+### 9. Iteración con valores faltantes
+Se recorren listas que contienen valores nulos (`None`). Se utiliza `continue` para saltarse esos valores faltantes durante el procesamiento de la lista.
+
+### 10. Control de flujo en bucles anidados
+Se trabaja con matrices y se aplican las sentencias `break` y `continue` para controlar el flujo en bucles anidados.
+
+### 11. Placeholder para funciones incompletas
+Se utiliza `pass` en funciones que aún no están completamente desarrolladas, lo que permite dejar el código limpio sin generar errores.
 
 ---
 
