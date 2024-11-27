@@ -43,12 +43,6 @@ Se utiliza `pass` en funciones que aún no están completamente desarrolladas, l
 1. Clona este repositorio en tu máquina local.
 2. Asegúrate de tener instalado Python 3.x.
 3. Ejecuta los ejercicios abriendo el archivo `.ipynb` con Jupyter Notebook o cualquier entorno compatible con notebooks de Python.
-
-```bash
-git clone https://github.com/tu-usuario/tu-repositorio.git
-cd tu-repositorio
-```
-
 4. Sigue las instrucciones dentro de cada celda del notebook para completar los ejercicios.
 
 ---
